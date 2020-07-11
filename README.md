@@ -1,3 +1,6 @@
+
+<img src="https://media.giphy.com/media/103liSxCY1NpLO/giphy.gif" width="100%" />
+
 # Shubhendra Singh Chauhan
 Hi👋, I'm Shubhendra (he/him)- a computer science & engineering undergraduate from Jaypee University of Engineering and Technology. 
 I live in 🏠 Kanpur, Uttar Pradesh(India).
