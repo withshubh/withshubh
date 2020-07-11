@@ -18,8 +18,8 @@ I live in 🏠 Kanpur, Uttar Pradesh(India).
 --> 
 
 ## 📫 How to reach me:
-- Twitter: https://twitter.com/UB_Shubh
-- Personal site: https://camelcaseguy.com
-- IG: https://instagram.com/camelcaseguy
-
+- Twitter: [twitter.com/UB_Shubh](https://twitter.com/UB_Shubh)
+- Personal site: [camelcaseguy.com](https://camelcaseguy.com)
+- LinkedIn: [linkedin.com/in/withshubh](https://www.linkedin.com/in/withshubh)
+- IG: [camelcaseguy](https://instagram.com/camelcaseguy)
 
