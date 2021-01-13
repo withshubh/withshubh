@@ -87,41 +87,6 @@ jobs:
           config_timezone: Asia/Colombo
           use_prebuilt_image: master
 
-      # Terminal template with header and metadata sections
-      - name: Terminal template
-        uses: lowlighter/metrics@master
-        with:
-          template: terminal
-          filename: metrics.terminal.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: "header, repositories, activity, community,metadata"
-          plugins_errors_fatal: yes
-          config_timezone: Asia/Colombo
-          use_prebuilt_image: master
-
-      # Repository template
-      # Displays header section along with ratio of open/closed/merged issues and pull requests and active projects
-      # Note that : 
-      # - As projects requires "public_repo" scope, you can use a bot account instead and use the "user" option instead
-      # - You must pass the additional query parameter "repo" in a JSON format
-      - name: Repository template
-        uses: lowlighter/metrics@master
-        with:
-          template: repository
-          filename: metrics.repository.svg
-          token: ${{ secrets.METRICS_BOT_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: withshubh
-          query: '{"repo":"metrics"}'
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_projects: yes
-#          plugin_projects_repositories: lowlighter/metrics/projects/1
-          plugins_errors_fatal: yes
-          config_timezone: Asia/Colombo
-          use_prebuilt_image: master
-
       # Google PageSpeed insight audits
       # Don't forget to update your GitHub profile with your website
       # Token is optional but advised
