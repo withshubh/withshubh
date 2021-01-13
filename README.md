@@ -14,10 +14,10 @@
 
 <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.posts.svg">
 
+<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.stars.svg">
+
 
 <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.topics.mastered.svg">
-
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.stars.svg">
 
 
 
