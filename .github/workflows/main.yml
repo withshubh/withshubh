@@ -26,7 +26,6 @@ jobs:
           use_prebuilt_image: master 
           
       - name: Personal metrics (additional)
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.additional.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -76,7 +75,6 @@ jobs:
 
       # Classic template with header and repositories sections
       - name: Classic template
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -91,7 +89,6 @@ jobs:
       # Don't forget to update your GitHub profile with your website
       # Token is optional but advised
       - name: PageSpeed plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.pagespeed.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -107,7 +104,6 @@ jobs:
       # Don't forget to update your GitHub profile with your website
       # Token is optional but advised
       - name: PageSpeed plugin (detailed)
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.pagespeed.detailed.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -124,7 +120,6 @@ jobs:
       # Don't forget to update your GitHub profile with your website
       # Token is optional but advised
       - name: PageSpeed plugin (screenshot)
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.pagespeed.screenshot.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -159,7 +154,6 @@ jobs:
       # Note that :
       # - "plugin_music_mode", "plugin_music_provider" and "plugin_music_token" are all required
       - name: Music plugin (recent)
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.music.recent.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -177,7 +171,6 @@ jobs:
       # Display coding habits and recent activity
       # Don't forget to setup timezone for accurate metrics
       - name: Habits plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -193,7 +186,6 @@ jobs:
       # Display coding habits and recent activity (only facts section)
       # Don't forget to setup timezone for accurate metrics
       - name: Habits plugin (facts)
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.habits.facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -209,7 +201,6 @@ jobs:
       # Display coding habits and recent activity (only charts section)
       # Don't forget to setup timezone for accurate metrics
       - name: Habits plugin (charts)
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.habits.charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -225,7 +216,6 @@ jobs:
       # Display most used languages
       # You can ignore some languages and skip some repositories if you want
       - name: Languages plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -240,7 +230,6 @@ jobs:
 
       # Display ratio of open/closed/merged issues and pull requests 
       - name: Follow-up plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.followup.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -255,7 +244,6 @@ jobs:
       # Note that :
       # - This is part of "repositories" section, so you need to enable it
       - name: Lines plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -271,7 +259,6 @@ jobs:
       # - This is part of "repositories" section, so you need to enable it
       # - A "repo" scope is required
       - name: Traffic plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.traffic.svg
           token: ${{ secrets.METRICS_BOT_TOKEN }}
@@ -287,7 +274,6 @@ jobs:
       # - "plugin_posts_source" is required
       # - With "dev.to" as source, your GitHub username is directly used
       - name: Posts plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.posts.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -301,7 +287,6 @@ jobs:
 
       # Display isometric calendar (180 days)
       - name: Isocalendar plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -312,23 +297,8 @@ jobs:
           config_timezone: Asia/Colombo
           use_prebuilt_image: master
 
-      # Display isometric calendar (365 days)
-      - name: Isocalendar plugin (full year)
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.isocalendar.fullyear.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugins_errors_fatal: yes
-          config_timezone: Asia/Colombo
-          use_prebuilt_image: master
-
       # Display gists metrics
       - name: Gists plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.gists.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -341,7 +311,6 @@ jobs:
 
       # Display starred topics (as labels)
       - name: Topics plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.topics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -357,7 +326,6 @@ jobs:
       # Note that : 
       # - Only topics with an icon will be displayed (most of majors topics have one anyway)
       - name: Topics plugin (mastered)
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.topics.mastered.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -394,7 +362,6 @@ jobs:
       # Note that : 
       # - You must provide a "plugin_tweets_token"
       - name: Tweets plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.tweets.svg
           token: ${{ secrets.METRICS_BOT_TOKEN }}
@@ -408,7 +375,6 @@ jobs:
           
       # Display your stargazers evolutions
       - name: Stargazers plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.stargazers.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -421,7 +387,6 @@ jobs:
           
       # Display your latest starred repositories
       - name: Stars plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.stars.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -435,7 +400,6 @@ jobs:
           
       # Display recent activity metrics
       - name: Activity plugin
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -455,7 +419,6 @@ jobs:
       # - "--hireable" will act as if "Available for hire" is enabled on your account
       # - "--halloween" will act as if it was halloween, changing the colors of contributions calendar and isocalendar
       - name: Header (additional features)
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.header.svg
           token: ${{ secrets.METRICS_BOT_TOKEN }}
@@ -470,7 +433,6 @@ jobs:
       # The "METRICS_TOKEN" does not contains the "public_repo" scope, which is required for "plugin_projects"
       # It will display an "Insufficient token rights" error
       - name: Plugin error example
-        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.error.svg
           token: ${{ secrets.METRICS_TOKEN }}
