@@ -602,21 +602,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="406.7662399694479" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="392.5862029103607" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="406.7662399694479" y="0" width="32.590318920303915" height="8" fill="#563d7c"/>
+          <rect mask="url(#languages-bar)" x="392.5862029103607" y="0" width="35.88641222929185" height="8" fill="#563d7c"/>
         
-          <rect mask="url(#languages-bar)" x="439.3565588897518" y="0" width="15.484011611395815" height="8" fill="#e34c26"/>
+          <rect mask="url(#languages-bar)" x="428.4726151396526" y="0" width="26.615098103799003" height="8" fill="#e34c26"/>
         
-          <rect mask="url(#languages-bar)" x="454.8405705011476" y="0" width="1.7226575664212196" height="8" fill="#b07219"/>
+          <rect mask="url(#languages-bar)" x="455.0877132434516" y="0" width="1.60059119949096" height="8" fill="#b07219"/>
         
-          <rect mask="url(#languages-bar)" x="456.5632280675688" y="0" width="1.568962902711916" height="8" fill="#a53b70"/>
+          <rect mask="url(#languages-bar)" x="456.6883044429426" y="0" width="1.457787237207906" height="8" fill="#a53b70"/>
         
-          <rect mask="url(#languages-bar)" x="458.13219097028076" y="0" width="1.2004440733215036" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="458.14609168015045" y="0" width="1.1153814064342367" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="459.33263504360224" y="0" width="0.5916373644028388" height="8" fill="#701516"/>
+          <rect mask="url(#languages-bar)" x="459.2614730865847" y="0" width="0.5497143351133429" height="8" fill="#701516"/>
         
-          <rect mask="url(#languages-bar)" x="459.9242724080051" y="0" width="0.04893677905477006" height="8" fill="#c6538c"/>
+          <rect mask="url(#languages-bar)" x="459.81118742169804" y="0" width="0.12723655786795582" height="8" fill="#384d54"/>
         
       </svg>
       <div class="field center horizontal-wrap fill-width">
@@ -657,8 +657,8 @@
           </div>
         
           <div class="field center no-wrap language">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#c6538c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-            SCSS
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
+            Dockerfile
           </div>
         
       </div>
