@@ -10,8 +10,6 @@
 
 <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.pagespeed.svg">
 
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.music.recent.svg">
-
 <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.tweets.svg">
 
 <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.posts.svg">
