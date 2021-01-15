@@ -1,5 +1,3 @@
-<a align="center"> [![GitHub](https://img.shields.io/github/followers/withshubh?label=Follow&style=social)](https://github.com/withshubh) </a> <br>
-
 <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">
 <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.lines.svg">
 <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.followup.svg">
