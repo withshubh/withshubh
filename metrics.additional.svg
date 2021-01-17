@@ -749,8 +749,8 @@
             </div>
           
             <div class="entry">
-              <span class="value">4</span>
-              <div class="bar" style="height: 3.125px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+              <span class="value">6</span>
+              <div class="bar" style="height: 4.6875px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
               15
             </div>
           
@@ -813,8 +813,8 @@
           <div class="chart-bars">
             
               <div class="entry">
-                <span class="value">10</span>
-                <div class="bar" style="height: 6.41025641025641px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                <span class="value">12</span>
+                <div class="bar" style="height: 7.6923076923076925px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                 Sun
               </div>
             
@@ -864,8 +864,14 @@
             
               <div class="entry">
                 <span class="name">Python</span>
-                <div class="bar" style="width: 80%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                <span class="value">100%</span>
+                <div class="bar" style="width: 73.24%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                <span class="value">92%</span>
+              </div>
+            
+              <div class="entry">
+                <span class="name">Go</span>
+                <div class="bar" style="width: 6.76%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                <span class="value">8%</span>
               </div>
             
           </div>
