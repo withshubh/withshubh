@@ -514,6 +514,22 @@
     margin: 0 2px;
   }
 
+/* Projects */
+  .project .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 420px;
+    margin-left: 37px;
+    max-height: 38px;
+    font-size: 12px;
+    white-space: normal;
+    /* May not work in all browsers */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
 /* Fade animation */
   .af {
     opacity: 0;
@@ -801,7 +817,7 @@
       
         <footer>
           <span>These metrics include private contributions, timezone Asia/Colombo</span>
-          <span>Last updated Sat, 23 Jan 2021 13:43:37 GMT with lowlighter/metrics@3.3.0-beta</span>
+          <span>Last updated Sat, 23 Jan 2021 14:30:49 GMT with lowlighter/metrics@3.3.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
