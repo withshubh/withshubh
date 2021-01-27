@@ -851,8 +851,8 @@
             </div>
           
             <div class="entry">
-              <span class="value">4</span>
-              <div class="bar" style="height: 20px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+              <span class="value">2</span>
+              <div class="bar" style="height: 10px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
               21
             </div>
           
@@ -879,8 +879,8 @@
           <div class="chart-bars">
             
               <div class="entry">
-                <span class="value">8</span>
-                <div class="bar" style="height: 20px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                <span class="value">6</span>
+                <div class="bar" style="height: 15px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                 Sun
               </div>
             
@@ -930,14 +930,14 @@
             
               <div class="entry">
                 <span class="name">Go</span>
-                <div class="bar" style="width: 54.327999999999996%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
-                <span class="value">68%</span>
+                <div class="bar" style="width: 46.744%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                <span class="value">58%</span>
               </div>
             
               <div class="entry">
                 <span class="name">TypeScript</span>
-                <div class="bar" style="width: 25.672%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                <span class="value">32%</span>
+                <div class="bar" style="width: 33.256%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                <span class="value">42%</span>
               </div>
             
           </div>
