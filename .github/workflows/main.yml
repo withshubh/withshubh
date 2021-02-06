@@ -61,36 +61,7 @@ jobs:
           plugin_projects_repositories: lowlighter/metrics/projects/1
           plugin_projects_limit: 0
           config_timezone: Asia/Colombo
-
-     # Classic template with header and repositories sections
-#      - name: Classic template
-#        uses: withshubh/metrics@master
-#        with:
-#          filename: metrics.classic.svg
-#          token: ${{ secrets.METRICS_TOKEN }}
-#          committer_token: ${{ secrets.GITHUB_TOKEN }}
-#          base: "header, repositories, activity, community, metadata"
-#          plugin_lines: yes
-#          plugins_errors_fatal: yes
-#          config_timezone: Asia/Colombo
-#          use_prebuilt_image: master
-
-      # Google PageSpeed insight audits
-      # Don't forget to update your GitHub profile with your website
-      # Token is optional but advised
-      - name: PageSpeed plugin
-        uses: withshubh/metrics@master
-        with:
-          filename: metrics.plugin.pagespeed.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_pagespeed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugins_errors_fatal: yes
-          config_timezone: Asia/Colombo
-          use_prebuilt_image: master
-
+          
       # Google PageSpeed insight audits, with additional performance metrics displayed
       # Don't forget to update your GitHub profile with your website
       # Token is optional but advised
