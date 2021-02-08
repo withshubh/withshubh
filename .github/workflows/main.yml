@@ -17,24 +17,6 @@ jobs:
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           
-          
-      # Repository template example, with some plugins enabled
-      # Notice how repository name is passed through "query" option
-      - name: 📘 Repository template
-        uses: lowlighter/metrics@master
-        with:
-          template: repository
-          filename: metrics.repository.svg
-          token: ${{ secrets.METRICS_BOT_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: withshubh
-          query: '{"repo":"metrics"}'
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_projects: yes
-          plugin_projects_repositories: lowlighter/metrics/projects/1
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          
       - name: 📰 Activity plugin
         uses: lowlighter/metrics@master
         with:
