@@ -168,16 +168,6 @@ jobs:
           base: ""
           plugin_projects: yes
 
-      # Metrics for "github" organization
-      - name: 💬 Organization metrics
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.organization.svg
-          user: campus-experts
-          token: ${{ secrets.METRICS_BOT_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: header, repositories
-
       # Illustrate header hidden features with debug flags
       # "--cakeday" will act as if it's your account birthday
       # "--hireable" will act as if "Available for hire" is enabled
