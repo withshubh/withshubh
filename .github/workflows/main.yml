@@ -99,7 +99,7 @@ jobs:
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           
       - name: Music plugin (recent)
-        uses: withshubh/metrics@master
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.music.recent.svg
           token: ${{ secrets.METRICS_TOKEN }}
