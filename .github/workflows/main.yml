@@ -78,6 +78,17 @@ jobs:
 #          plugins_errors_fatal: yes
 #          config_timezone: Asia/Colombo
 #          use_prebuilt_image: master
+      - name: Pagespeed plugin (new)
+        uses: withshubh/metrics@latest
+        with:
+          filename: metrics.plugin.pagespeed.screenshot.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_pagespeed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }} 
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_screenshot: no
+          plugin_pagespeed_url: .user.website  
 
       # Display recently played music
       # Note that :
@@ -325,14 +336,4 @@ jobs:
           use_prebuilt_image: master
           
           
-      - name: Pagespeed plugin (new)
-        uses: withshubh/metrics@latest
-        with:
-          filename: metrics.plugin.pagespeed.screenshot.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          plugin_pagespeed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }} 
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_screenshot: no
-          plugin_pagespeed_url: .user.website  
+
