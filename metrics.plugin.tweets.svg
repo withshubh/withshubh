@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="162" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="272" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -476,6 +476,13 @@
     margin: 0 4px;
   }
 
+  .activity .issue {
+    flex-grow: 1;
+    width: 0%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
   .activity .code {
     background-color: #7777771F;
     padding: 1px 5px;
@@ -486,17 +493,22 @@
     margin: 0 4px -3px;
   }
 
-  .activity .bold {
+  .activity .bold, .activity .user {
     font-weight: 600;
     margin: 0 4px;
   }
 
-  .activity .details {
+  .activity .details, .activity .timestamp {
     padding-left: 42px;
     display: flex;
     flex-direction: column;
     font-size: 13px;
     color: #666666;
+  }
+
+  .activity .timestamp {
+    font-size: 10px;
+    margin-top: 4px;
   }
 
   .activity .details &gt; div {
@@ -626,6 +638,57 @@
     border-radius: 7px;
   }
 
+/* Licenses */
+  .licenses {
+    display: flex;
+  }
+  .licenses .column {
+    align-items: flex-start;
+    font-size: 12px;
+    color: #666666;
+    flex-shrink: 0;
+  }
+  .licenses-details {
+    margin-top: 8px;
+  }
+  .field.license.details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .field.license.details small {
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+    text-align: right;
+  }
+  .licenses .column:nth-child(1) {
+    margin-left: 13px;
+    width: 25%;
+  }
+  .licenses .column:nth-child(2) {
+    width: 25%;
+  }
+  .licenses .column:nth-child(3) {
+    width: 50%;
+  }
+  .licenses .column svg {
+    height: 12px;
+    width: 12px;
+  }
+  .licenses .column .title {
+    font-weight: 600;
+    margin-left: 15px;
+  }
+  .licenses .column .permission svg {
+    fill: #56d364;
+  }
+  .licenses .column .limitation svg {
+    fill: #f85149;
+  }
+  .licenses .column .condition svg {
+    fill: #58a6ff;
+  }
+
 /* Fade animation */
   .af {
     opacity: 0;
@@ -638,6 +701,13 @@
     to {
       opacity: 1;
     }
+  }
+
+/* Twemoji */
+  .twemoji {
+    height: 1em;
+    width: 1em;
+    margin-bottom: -.125em;
   }
 
 /* Cake day */
@@ -741,13 +811,13 @@
             
               
                 <div class="tweet">
-                   <span class="mention">@pandastichuman</span>   <span class="mention">@sangamkotalwar</span>   <span class="mention">@antra_tripathi</span>  ❤️🔥
-                  <div class="date">Mon, 08 Feb 2021 16:12:55 GMT</div>
+                   <span class="mention">@SouravInsights</span>   <span class="mention">@emishacommunity</span>   <span class="mention">@ReactSummit</span>   <span class="mention">@Clarity_conf</span>   <span class="mention">@UXRCollective</span>   <span class="mention">@canvasconf</span>   <span class="mention">@harshil1712</span>   <span class="mention">@yashovardhan</span>   <span class="mention">@haxzie_</span>   <span class="mention">@rishabhbansal97</span>   <span class="mention">@athulcajay</span>   <span class="mention">@VishwaMehta30</span>   <span class="mention">@nikhilshares</span>  In 2021, I'd like to attend  <span class="mention">@devrelcon</span>   <span class="mention">@cmxsummit</span>   <span class="mention">@githubuniverse</span>   <span class="mention">@devconf_in</span>  💖
+                  <div class="date">Fri, 12 Feb 2021 09:38:17 GMT</div>
                 </div>
               
                 <div class="tweet">
-                   <span class="mention">@sanketsaurav</span>   <span class="link">t.co/fxuT4hTGT2</span> 
-                  <div class="date">Mon, 08 Feb 2021 08:11:41 GMT</div>
+                  RT  <span class="mention">@sanketsaurav</span> : Why, thank you, u/smileBC!<br /><br />We're hiring for a bunch of roles! 👉🏼  <span class="link">t.co/UaFov08deH</span>   <span class="link">t.co/aJGhZnK3pu</span> 
+                  <div class="date">Fri, 12 Feb 2021 09:30:17 GMT</div>
                 </div>
               
             
