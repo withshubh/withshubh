@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="83" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="88" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -476,6 +476,13 @@
     margin: 0 4px;
   }
 
+  .activity .issue {
+    flex-grow: 1;
+    width: 0%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
   .activity .code {
     background-color: #7777771F;
     padding: 1px 5px;
@@ -486,17 +493,22 @@
     margin: 0 4px -3px;
   }
 
-  .activity .bold {
+  .activity .bold, .activity .user {
     font-weight: 600;
     margin: 0 4px;
   }
 
-  .activity .details {
+  .activity .details, .activity .timestamp {
     padding-left: 42px;
     display: flex;
     flex-direction: column;
     font-size: 13px;
     color: #666666;
+  }
+
+  .activity .timestamp {
+    font-size: 10px;
+    margin-top: 4px;
   }
 
   .activity .details &gt; div {
@@ -626,6 +638,57 @@
     border-radius: 7px;
   }
 
+/* Licenses */
+  .licenses {
+    display: flex;
+  }
+  .licenses .column {
+    align-items: flex-start;
+    font-size: 12px;
+    color: #666666;
+    flex-shrink: 0;
+  }
+  .licenses-details {
+    margin-top: 8px;
+  }
+  .field.license.details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .field.license.details small {
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+    text-align: right;
+  }
+  .licenses .column:nth-child(1) {
+    margin-left: 13px;
+    width: 25%;
+  }
+  .licenses .column:nth-child(2) {
+    width: 25%;
+  }
+  .licenses .column:nth-child(3) {
+    width: 50%;
+  }
+  .licenses .column svg {
+    height: 12px;
+    width: 12px;
+  }
+  .licenses .column .title {
+    font-weight: 600;
+    margin-left: 15px;
+  }
+  .licenses .column .permission svg {
+    fill: #56d364;
+  }
+  .licenses .column .limitation svg {
+    fill: #f85149;
+  }
+  .licenses .column .condition svg {
+    fill: #58a6ff;
+  }
+
 /* Fade animation */
   .af {
     opacity: 0;
@@ -638,6 +701,13 @@
     to {
       opacity: 1;
     }
+  }
+
+/* Twemoji */
+  .twemoji {
+    height: 1em;
+    width: 1em;
+    margin-bottom: -.125em;
   }
 
 /* Cake day */
@@ -719,21 +789,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="403.20924648540296" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="406.7899317802485" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="403.20924648540296" y="0" width="32.335114527001075" height="8" fill="#563d7c"/>
+          <rect mask="url(#languages-bar)" x="406.7899317802485" y="0" width="32.592217120286904" height="8" fill="#563d7c"/>
         
-          <rect mask="url(#languages-bar)" x="435.54436101240407" y="0" width="19.343952606313323" height="8" fill="#e34c26"/>
+          <rect mask="url(#languages-bar)" x="439.38214890053536" y="0" width="15.484913466656858" height="8" fill="#e34c26"/>
         
-          <rect mask="url(#languages-bar)" x="454.8883136187174" y="0" width="1.7068265989205644" height="8" fill="#b07219"/>
+          <rect mask="url(#languages-bar)" x="454.8670623671922" y="0" width="1.722757901387909" height="8" fill="#b07219"/>
         
-          <rect mask="url(#languages-bar)" x="456.59514021763795" y="0" width="1.554544366372064" height="8" fill="#a53b70"/>
+          <rect mask="url(#languages-bar)" x="456.5898202685801" y="0" width="1.5690542858420573" height="8" fill="#a53b70"/>
         
-          <rect mask="url(#languages-bar)" x="458.14968458401006" y="0" width="1.1894121703585792" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="458.15887455442214" y="0" width="1.2005139923341137" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="459.3390967543686" y="0" width="0.5862003047859977" height="8" fill="#701516"/>
+          <rect mask="url(#languages-bar)" x="459.3593885467563" y="0" width="0.5916718239010043" height="8" fill="#701516"/>
         
-          <rect mask="url(#languages-bar)" x="459.9252970591546" y="0" width="0.07470294084543276" height="8" fill="#427819"/>
+          <rect mask="url(#languages-bar)" x="459.9510603706573" y="0" width="0.048939629342715896" height="8" fill="#c6538c"/>
         
       </svg>
       
@@ -775,8 +845,8 @@
             </div>
           
             <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#427819" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              Makefile
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#c6538c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
+              SCSS
             </div>
           
         </div>
