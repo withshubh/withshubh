@@ -170,7 +170,7 @@ jobs:
           base: ""
           plugin_projects: yes
 
-      # Illustrate header hidden features with debug flags
+      # Illustrate header hiden features with debug flags
       # "--cakeday" will act as if it's your account birthday
       # "--hireable" will act as if "Available for hire" is enabled
       # "--halloween" will act as if it was halloween, changing the colors of calendars
