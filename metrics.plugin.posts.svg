@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="91" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="76" class="">
     <defs>
         <style/>
     </defs>
@@ -190,6 +190,9 @@
   .field.language.details &gt; *, .field.language.details small &gt; * {
     flex: 1 1 0;
   }
+  .field.language.details small &gt; *:not(:last-child) {
+    margin-right: 6px;
+  }
 
 /* Follow-up */
   .followup.legend {
@@ -247,7 +250,7 @@
     justify-content: space-around;
     margin-top: 4px;
   }
-  .categorie {
+  .category {
     display: flex;
     flex-direction: column;
     align-items: center;
