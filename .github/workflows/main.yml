@@ -72,6 +72,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
+          plugin_languages_sections: most-used, recently-used
           plugin_languages: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           
