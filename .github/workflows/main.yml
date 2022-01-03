@@ -148,17 +148,17 @@ jobs:
           plugin_stars_limit: 2
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           
-      - name: 🐤 Tweets plugin
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.tweets.svg
-          token: NOT_NEEDED
-          user: UB_Shubh
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          plugin_tweets: yes
-          plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
-          plugin_tweets_user: github
-    #     plugins_errors_fatal: ${{ github.repository == 'withshubh/withshubh' }}
+#      - name: 🐤 Tweets plugin
+#        uses: lowlighter/metrics@master
+#        with:
+#          filename: metrics.plugin.tweets.svg
+#          token: NOT_NEEDED
+#          user: UB_Shubh
+#          committer_token: ${{ secrets.GITHUB_TOKEN }}
+#          plugin_tweets: yes
+#          plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
+#          plugin_tweets_user: github
+#          plugins_errors_fatal: ${{ github.repository == 'withshubh/withshubh' }}
           
             # Illustrate plugin errors :
       # ${{ secrets.METRICS_TOKEN }} is missing "public_repo" scope, which is required for "plugin_projects"
