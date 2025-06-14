@@ -1,27 +1,56 @@
 [<img align="right" width="120px" alt="🦑" src="https://count.getloli.com/get/@withshubh?theme=rule34">](https://www.youtube.com/@camelcaseguy)
 
-<picture>
-  <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">
-</picture>
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 20px;">
 
-[<img alt="🦑" align="left" width="300px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.isocalendar.svg">]()
+  <!-- No align="left" here -->
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">
+  </picture>
 
-[<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.lines.svg">]()
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.isocalendar.svg">
+  </picture>
 
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.followup.svg">
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.languages.svg">
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.habits.svg">
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.lines.svg">
+  </picture>
 
-<!--<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.stargazers.svg"> -->
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.music.recent.svg">
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.followup.svg">
+  </picture>
 
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.pagespeed.svg">
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.languages.svg">
+  </picture>
 
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.tweets.svg">
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.habits.svg">
+  </picture>
 
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.posts.svg">
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.music.recent.svg">
+  </picture>
 
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.stars.svg">
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.pagespeed.svg">
+  </picture>
+
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.tweets.svg">
+  </picture>
+
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.posts.svg">
+  </picture>
+
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.stars.svg">
+  </picture>
+
+  <picture>
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.topics.mastered.svg">
+  </picture>
+
+</div>
 
 
-<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.topics.mastered.svg">
