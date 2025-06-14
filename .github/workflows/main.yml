@@ -91,17 +91,12 @@ jobs:
       - name: 🎵 Music plugin (recent)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.music.recent.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.plugin.music.playlist.spotify.svg
+          token: NOT_NEEDED
           base: ""
           plugin_music: yes
-          plugin_music_provider: spotify
-          plugin_music_mode: recent
-          plugin_music_limit: 2
-          plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
-          config_timezone: Asia/Colombo
-          use_prebuilt_image: master
+          plugin_music_playlist: https://open.spotify.com/embed/playlist/5eRjVkc6V9HNPU8rlnGvRQ
+
 
       - name: ✒️ Posts plugin
         uses: lowlighter/metrics@latest
