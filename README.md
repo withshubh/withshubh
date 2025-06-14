@@ -1,6 +1,8 @@
-[<img align="right" width="120px" alt="🦑" src="https://count.getloli.com/get/@withshubh?theme=rule34">](https://www.youtube.com/channel/UCFwq5Vlo67Aqiu0e1QYjaIA)
+[<img align="right" width="120px" alt="🦑" src="https://count.getloli.com/get/@withshubh?theme=rule34">](https://www.youtube.com/@camelcaseguy)
 
-[<img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">]()
+<picture>
+  <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">
+</picture>
 
 [<img alt="🦑" align="left" width="300px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.isocalendar.svg">]()
 
