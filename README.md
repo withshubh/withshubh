@@ -3,7 +3,6 @@
 <picture>
   <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">
 </picture>
-
 <picture>
 <img alt="🦑" align="left" width="300px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.isocalendar.svg">
 </picture>
