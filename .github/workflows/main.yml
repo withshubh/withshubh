@@ -78,25 +78,15 @@ jobs:
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
 
-      - name: 👨‍💻 Lines plugin
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.lines.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: repositories
-          plugin_lines: yes
-
       - name: ⏱️ PageSpeed plugin (detailed)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.pagespeed.svg
           token: NOT_NEEDED
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
           plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: ${{ secrets.WEBSITE_URL }}
+          plugin_pagespeed_url: https://camelcaseguy.com
 
       - name: 🎵 Music plugin (recent)
         uses: lowlighter/metrics@latest
@@ -142,14 +132,6 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 2
 
-      - name: 💬 Header (hidden features)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.header.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: header
-          debug_flags: --cakeday --hireable --halloween
 
       - name: Topics plugin (mastered)
         uses: lowlighter/metrics@latest
