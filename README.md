@@ -22,7 +22,7 @@
   </picture>
 
   <picture>
-    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.music.playlist.spotify.svg">
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.music.recent.svg">
   </picture>
 
   <picture>
