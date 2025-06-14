@@ -140,6 +140,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_sponsors: yes
-          plugin_sponsors_sections: goal, list
+          plugin_sponsors_sections: about, goal, list
           plugin_sponsors_past: yes
 
