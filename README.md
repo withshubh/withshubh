@@ -2,15 +2,11 @@
 
 
   <picture>
-  <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">
+  <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.classic.svg">
   </picture>
 
   <picture>
     <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.isocalendar.svg">
-  </picture>
-
-  <picture>
-    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.lines.svg">
   </picture>
 
   <picture>
