@@ -16,7 +16,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: Example
+      - name: Header
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.classic.svg
