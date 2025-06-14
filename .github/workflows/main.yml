@@ -16,6 +16,14 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
+      - name: Example
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+          plugin_lines: yes
+          
       - name: 📰 Activity plugin
         uses: lowlighter/metrics@latest
         with:
