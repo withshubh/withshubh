@@ -1,10 +1,8 @@
 [<img align="right" width="120px" alt="🦑" src="https://count.getloli.com/get/@withshubh?theme=rule34">](https://www.youtube.com/@camelcaseguy)
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 20px;">
 
-  <!-- No align="left" here -->
   <picture>
-    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">
+  <img alt="🦑" align="left" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.header.svg">
   </picture>
 
   <picture>
@@ -51,6 +49,5 @@
     <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.topics.mastered.svg">
   </picture>
 
-</div>
 
 
