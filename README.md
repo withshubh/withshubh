@@ -34,7 +34,7 @@
   </picture>
 
   <picture>
-    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.posts.svg">
+    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.posts.full.svg">
   </picture>
 
   <picture>
