@@ -38,10 +38,6 @@
   </picture>
 
   <picture>
-    <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.stars.svg">
-  </picture>
-
-  <picture>
     <img alt="🦑" width="400px" src="https://github.com/withshubh/withshubh/blob/master/metrics.plugin.topics.mastered.svg">
   </picture>
 
