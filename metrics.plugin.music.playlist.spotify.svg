@@ -25,15 +25,8 @@
                             <div class="track">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Si Antes Te Hubiera Conocido</div>
-                                    <div class="artist">KAROL G</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Shake It To The Max (FLY) - Remix</div>
-                                    <div class="artist">EMOLIY, Silent Addy, Skillibeng, Shenseea</div>
+                                    <div class="name">Die With A Smile</div>
+                                    <div class="artist">Lady Gaga, Bruno Mars</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -46,8 +39,15 @@
                             <div class="track">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Iris</div>
-                                    <div class="artist">The Goo Goo Dolls</div>
+                                    <div class="name">Azizam</div>
+                                    <div class="artist">Ed Sheeran</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Show Me Love</div>
+                                    <div class="artist">WizTheMc, bees &amp; honey</div>
                                 </div>
                             </div>
                         </div>
