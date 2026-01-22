@@ -25,15 +25,22 @@
                             <div class="track">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Sweater Weather</div>
-                                    <div class="artist">The Neighbourhood</div>
+                                    <div class="name">End of Beginning</div>
+                                    <div class="artist">Djo</div>
                                 </div>
                             </div>
                             <div class="track">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">back to friends</div>
-                                    <div class="artist">sombr</div>
+                                    <div class="name">4 Raws</div>
+                                    <div class="artist">EEsDeeKid</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Cuando No Era Cantante</div>
+                                    <div class="artist">EEl Bogueto, Yung Beef</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -41,13 +48,6 @@
                                 <div class="infos">
                                     <div class="name">Running Up That Hill (A Deal With God)</div>
                                     <div class="artist">Kate Bush</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Let Me Love You</div>
-                                    <div class="artist">DJ Snake, Justin Bieber</div>
                                 </div>
                             </div>
                         </div>
