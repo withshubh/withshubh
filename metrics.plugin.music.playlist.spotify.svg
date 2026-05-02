@@ -25,15 +25,8 @@
                             <div class="track">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">TU SANCHO</div>
-                                    <div class="artist">EFuerza Regida</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Baby</div>
-                                    <div class="artist">Justin Bieber, Ludacris</div>
+                                    <div class="name">Dracula - JENNIE Remix</div>
+                                    <div class="artist">ETame Impala, JENNIE</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -46,8 +39,15 @@
                             <div class="track">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Choosin' Texas</div>
-                                    <div class="artist">Ella Langley</div>
+                                    <div class="name">Lush Life</div>
+                                    <div class="artist">Zara Larsson</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">American Cars</div>
+                                    <div class="artist">ENoah Kahan</div>
                                 </div>
                             </div>
                         </div>
