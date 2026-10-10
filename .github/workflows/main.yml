@@ -77,6 +77,7 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
 
       - name: ⏱️ PageSpeed plugin (detailed)
         uses: lowlighter/metrics@latest
@@ -142,4 +143,3 @@ jobs:
           plugin_sponsors: yes
           plugin_sponsors_sections: about, goal, list
           plugin_sponsors_past: yes
-
